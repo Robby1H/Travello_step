@@ -168,6 +168,7 @@ a {
   margin-right: 20px;
   box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
   padding: 44px 28px 30px 27px;
+  margin-bottom: 10px;
 }
 .h2_text {
   margin-top: 14px;
@@ -184,6 +185,9 @@ a {
 }
 
 @media (max-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
   .header_logo {
     margin: 0 auto;
   }
@@ -195,13 +199,71 @@ a {
     display: none;
   }
   .main_content {
-    margin: 0 auto;
+    margin: 0 20px;
   }
   .main_text {
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 10px;
+    line-height: 50px;
   }
   .main_subtext {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /* About us section */
+  .about_us {
+    margin-left: 10px;
+  }
+
+  .about_main {
+    margin-left: 80px;
+    margin-right: 15px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .first_img {
+    padding: 10px 10px 15px 10px;
+  }
+  .main_image {
+    width: 300px;
+  }
+  .sub_image {
+    width: 250px;
+    top: -40px;
+    left: -40px;
+  }
+
+  .h2_about {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .p_text {
     font-size: 13px;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+
+  /* Services section */
+  .services {
+    margin-top: 70px;
+  }
+  .btn_service {
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .h2_text {
+    font-size: 14px;
+  }
+  .p_service {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .service_img {
+    width: 30px;
   }
 }
