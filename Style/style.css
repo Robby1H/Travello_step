@@ -47,9 +47,8 @@ a {
 }
 
 .item:hover {
-  color: rgba(26, 217, 235, 0.8);
-  transition: 0.5s linear;
-  text-decoration: underline;
+  color: rgba(19, 226, 226, 0.8);
+  transition: 0.4s linear;
 }
 
 .button_item {
@@ -63,9 +62,8 @@ a {
   font-family: "Work Sans", sans-serif;
 }
 .button_item:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-  transition: 0.5s linear;
+  transform: scale(1.08);
+  transition: 0.3s linear;
 }
 
 /* Main section */
@@ -170,6 +168,10 @@ a {
   padding: 44px 28px 30px 27px;
   margin-bottom: 10px;
 }
+.btn_service:hover {
+  transform: translate(-8px, 5px) scale(1.05);
+  transition: 0.7s;
+}
 .h2_text {
   margin-top: 14px;
   font-weight: 500;
@@ -184,6 +186,7 @@ a {
   margin-top: 15px;
 }
 
+/* Media section */
 @media (max-width: 1024px) {
   .container {
     max-width: 800px;
@@ -251,10 +254,10 @@ a {
   }
   .btn_service {
     width: 200px;
-    height: 150px;
     padding: 15px;
     margin-bottom: 10px;
   }
+
   .h2_text {
     font-size: 14px;
   }
