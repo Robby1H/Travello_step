@@ -250,6 +250,7 @@ a {
 }
 
 /* Media section */
+/* Header section */
 @media (max-width: 1024px) {
   .container {
     max-width: 550px;
@@ -265,6 +266,7 @@ a {
   .header_nav {
     display: none;
   }
+  /* Main section */
   .main_content {
     margin: 0 20px;
   }

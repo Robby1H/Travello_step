@@ -1,0 +1,66 @@
+.services {
+  margin-top: 247px;
+  .btn_container {
+    display: flex;
+  }
+  .btn_service {
+    margin-right: 20px;
+    box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+    padding: 44px 28px 30px 27px;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+    &:hover {
+      transform: translate(-8px, 5px) scale(1.05);
+      transition: 0.7s;
+    }
+    .h2_text {
+      margin-top: 14px;
+      font-weight: 500;
+      font-family: "Playfair Display", sans-serif;
+      font-size: 24px;
+    }
+
+    .p_service {
+      font-size: 16px;
+      font-family: "Work Sans", sans-serif;
+      line-height: 24px;
+      margin-top: 15px;
+    }
+  }
+}
+// Media Section
+@media (max-width: 1024px) {
+  .services {
+    margin: 70px 0px 0px 0px;
+    .btn_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    .btn_service {
+      padding: 15px;
+      margin: 0 10px 10px 10px;
+      &:hover {
+        transform: translate(-8px, 5px);
+        transition: 0.7s;
+      }
+      &:last-child {
+        margin-right: 10px;
+      }
+      .h2_text {
+        font-size: 14px;
+      }
+      .p_service {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 5px;
+      }
+      .service_img {
+        width: 30px;
+      }
+    }
+  }
+}
